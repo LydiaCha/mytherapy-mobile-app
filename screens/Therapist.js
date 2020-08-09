@@ -6,7 +6,7 @@ class Therapist extends Component {
    render() {
       return (
         <View style={styles.therapist}>
-           <Text>Λυδια</Text>
+           <Text>Therapist page</Text>
           </View>   
       )
     }

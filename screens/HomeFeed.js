@@ -47,6 +47,7 @@ return(
     </View>
 );
   }
+  
 }
 const styles = StyleSheet.create({
   homeFeed: {

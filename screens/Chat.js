@@ -6,7 +6,7 @@ class Chat extends Component {
    render() {
       return (
         <View style={styles.chat}>
-           <Text>ειναι</Text>
+           <Text>Chat page</Text>
           </View>   
       )
     }

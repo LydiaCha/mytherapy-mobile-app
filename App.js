@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet} from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -53,11 +52,6 @@ function TabRoutes() {
 function App() {
   return (
     <NavigationContainer>
-      {/* <Stack.Navigator>
-        <Stack.Screen name="Splash" component={Splash} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Home" component={DrawerRoutes} />
-      </Stack.Navigator> */}
       <TabRoutes />
     </NavigationContainer>
   );

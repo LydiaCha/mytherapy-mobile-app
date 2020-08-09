@@ -6,7 +6,7 @@ class Settings extends Component {
    render() {
       return (
         <View style={styles.settings}>
-           <Text>θεα</Text>
+           <Text>Settings page</Text>
           </View>   
       )
     }
