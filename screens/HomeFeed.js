@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, FlatList } from 'react-native';
+import {AppleCard, AppOfTheDayCard} from 'react-native-apple-card-views';
 
 export default class HomeFeed extends Component {
 constructor() {
@@ -9,14 +10,15 @@ constructor() {
   }
 }
 
+// https://github.com/WrathChaos/react-native-apple-card-views
 renderItem = ({ item }) => {
   return (
     <View>
     <View>
-      <Text>
-        {item.title}
-      </Text>
-    </View>
+    <AppleCard
+    largeTitle={item.title}>
+    </AppleCard>
+      </View>
     </View>
   )
 }
@@ -39,6 +41,7 @@ return(
         data={this.state.dataSource}
         renderItem={this.renderItem}
       />
+      
     </View>
 );
   }
