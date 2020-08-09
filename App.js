@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useState, Component } from 'react';
-import { StyleSheet, Text, View, Button, RefreshControl, TextInput, FlatList, SectionList, ActivityIndicator } from 'react-native';
-import { RecyclerListView } from "recyclerlistview";
+import React, { Component } from 'react';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
 
 export default class App extends Component {
 constructor() {
