@@ -6,7 +6,7 @@ class Settings extends Component {
    render() {
       return (
         <View style={styles.settings}>
-           <Text>Click me</Text>
+           <Text>θεα</Text>
           </View>   
       )
     }

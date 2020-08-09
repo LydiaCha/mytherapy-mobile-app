@@ -24,6 +24,12 @@ function TabRoutes() {
           if (route.name === 'HomeFeed') {
             iconName = focused ? 'home' : 'home';
           } else if (route.name === 'Community') {
+            iconName = focused ? 'users' : 'users';
+          } else if (route.name === 'Therapist') {
+            iconName = focused ? 'heart' : 'heart';
+          } else if (route.name === 'Chat') {
+            iconName = focused ? 'comments' : 'comments';
+          } else if (route.name === 'Settings') {
             iconName = focused ? 'cog' : 'cog';
           }
 
@@ -37,6 +43,9 @@ function TabRoutes() {
       }}>
       <Tab.Screen name="HomeFeed" component={HomeFeed} />
       <Tab.Screen name="Community" component={Community} />
+      <Tab.Screen name="Therapist" component={Therapist} />
+      <Tab.Screen name="Chat" component={Chat} />
+      <Tab.Screen name="Settings" component={Settings} />
     </Tab.Navigator>
   );
 }

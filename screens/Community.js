@@ -6,7 +6,7 @@ class Community extends Component {
    render() {
       return (
         <View style={styles.community}>
-           <Text>Click me</Text>
+           <Text>H</Text>
           </View>   
       )
     }
