@@ -17,11 +17,6 @@ renderItem = ({ item }) => {
         {item.title}
       </Text>
     </View>
-    <View>
-      <Text>
-        {item.content}
-      </Text>
-    </View>
     </View>
   )
 }
@@ -47,7 +42,7 @@ return(
     </View>
 );
   }
-  
+
 }
 const styles = StyleSheet.create({
   homeFeed: {
