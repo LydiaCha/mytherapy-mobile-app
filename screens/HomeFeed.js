@@ -14,9 +14,12 @@ constructor() {
 renderItem = ({ item }) => {
   return (
     <View>
-    <View>
+    <View style={styles.card}>
     <AppleCard
-    largeTitle={item.title}>
+    largeTitle={item.title}
+    smallTitle=""
+    footnoteText="subtitle placeholder"
+    >
     </AppleCard>
       </View>
     </View>
@@ -53,6 +56,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  card: {
+    padding: 15
   }
   
 });
