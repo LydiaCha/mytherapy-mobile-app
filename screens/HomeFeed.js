@@ -17,8 +17,8 @@ renderItem = ({ item }) => {
     <View style={styles.card}>
     <AppleCard
     largeTitle={item.title}
-    smallTitle=""
     footnoteText="subtitle placeholder"
+    source={item.image}
     >
     </AppleCard>
       </View>
